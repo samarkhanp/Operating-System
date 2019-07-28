@@ -8,7 +8,7 @@ int main()
   printf("ENTER NO OF PARTITIONS::");
   scanf("%d",&np);
   printf("ENTER PARTITION SIZES::");
-  for(i=0;i<n;i++)
+  for(i=0;i<np;i++)
     scanf("%d",&ps[i]);
   printf("ENTER OS SIZE::");
   scanf("%d",&ossize);
