@@ -1,11 +1,13 @@
 #include<stdio.h>
 #include<conio.h>
 void main()
-{  int i,j,flag,nf,p[20],f[20],hit=0,miss=0,pos=0,np;
+{  
+   int i,j,flag,nf,p[20],f[20],hit=0,miss=0,pos=0,np;
    clrscr();
 
    for(int l=0;l<20;l++)
       f[l]=-1;
+	
    printf("ENTER NO OF PAGES::");
    scanf("%d",&np);
 
@@ -15,7 +17,6 @@ void main()
 
    printf("ENTER FRAME SIZE::");
    scanf("%d",&nf);
-
 
    for(i=0;i<np;i++)
    {
@@ -35,8 +36,6 @@ void main()
 	   pos++;
 	   miss++;
 	  }
-
-
    }
      printf("\nmiss::%d  hit::%d",miss,hit) ;
       getch();
